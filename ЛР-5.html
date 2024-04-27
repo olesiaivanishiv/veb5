@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Лабораторна робота №5</title>
+</head>
+<body>
+	<h1>Завдання №1</h1>
+	<label for="numberInput">Введіть число:</label>
+	<input type="text" id="numberInput">
+	<br>
+	<label for="lengthInput">Введіть майбутню довжину числа:</label>
+	<input type="text" id="lengthInput">
+	<br>
+	<button onclick="padNumber()">Доповнити нулями</button>
+
+	<h1>Завдання №2</h1>
+	<button onclick="showDaysInCurrentMonth()">Показати кількість днів</button>
+	<p>Кількість днів у місяці: <span id="daysInMonth"></span></p>
+
+	<h1>Завдання №3</h1>
+	<label for="sides">Введіть довжини катетів через кому (наприклад, 3,4):</label>
+	<input type="text" id="sides">
+	<button onclick="calculateArea()">Обчислити площу</button>
+	<p>Площа: <span id="area"></span></p>
+
+
+
+	<script src="script.js"></script>
+</body>
+</html>
